@@ -1,6 +1,7 @@
-#include<fstream>
+#include<stdio.h>
 #include<stdlib.h>
-int main()
-{ printf("%d","Hello World!");
+int main(int argc,char* argv[])
+{ 
+	printf("Hello, %s",argv[1]);
 }
 
